@@ -6,7 +6,6 @@ namespace Web_API_MVC.Models
     {
         public Context(DbContextOptions<Context> options) : base(options)
         {
-
         }
 
         public DbSet<Produto> Produto { get; set; }
